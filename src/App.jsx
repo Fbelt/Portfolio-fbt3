@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import { useState } from "react";
 import { Header } from "./components/header";
+import { Projects } from "./components/projetos";
+import { Footer } from "./components/footer";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
       }}
     >
       <Header />
+      <Projects />
+      <Footer />
     </div>
   );
 }

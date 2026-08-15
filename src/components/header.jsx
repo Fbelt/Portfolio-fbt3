@@ -4,18 +4,16 @@ export function Header() {
       style={{
         backgroundColor: "#1F2937",
         color: "white",
-        margin: "0 auto",
-        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-        padding: "15px",
-        border: "10px solid #fcfdff",
+        boxShadow: "0px 0px 15px black",
+        padding: "40px",
       }}
     >
       <h1
         style={{
           fontSize: "3em",
           fontFamily: "Bold",
-          marginBottom: "20px",
-          marginTop: "10px",
+          marginBottom: "30px",
+          marginTop: "0px",
         }}
       >
         Felipe Belfort Teixeira
@@ -25,7 +23,8 @@ export function Header() {
           marginBottom: "20px",
           fontFamily: "Semi-Bold",
           fontSize: "1.1em",
-          borderBottom: "2px solid #8f9cdd",
+          borderBottom: "1px solid #717bab",
+          paddingBottom: "15px",
         }}
       >
         Sistemas da Informação | Universidade Federal de Pernambuco
@@ -35,7 +34,8 @@ export function Header() {
           display: "flex",
           flexDirection: "row",
           gridGap: "20px",
-          padding: "50px 240px",
+          padding: "30px 240px",
+          borderBottom: "1px solid #717bab",
         }}
       >
         <div
@@ -52,11 +52,19 @@ export function Header() {
               width: "250px",
               height: "300px",
               borderRadius: "32px",
-              border: "5px solid #8f9cdd",
-              boxShadow: "0px 0px 10px black",
+              border: "5px solid #717bab",
+              boxShadow: "0px 0px 15px black",
             }}
           />
-          <div style={{ marginTop: "20px", display: "flex", gap: "12px" }}>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              rowGap: "2px",
+              columnGap: "10px",
+              marginTop: "20px",
+            }}
+          >
             <a href="https://github.com/Fbelt" target="_blank">
               <img
                 src="src/assets/Github.webp"
@@ -102,6 +110,15 @@ export function Header() {
                 }}
               />
             </a>
+            <span style={{ fontWeight: "Bold", fontSize: "0.9em" }}>
+              GitHub
+            </span>
+            <span style={{ fontWeight: "Bold", fontSize: "0.9em" }}>
+              LinkedIn
+            </span>
+            <span style={{ fontWeight: "Bold", fontSize: "0.9em" }}>
+              Instagram
+            </span>
           </div>{" "}
         </div>
         <div
@@ -143,17 +160,6 @@ export function Header() {
           </p>
         </div>
       </div>
-      <h3
-        style={{
-          marginTop: "20px",
-          textAlign: "center",
-          textDecoration: "underline",
-          marginBottom: "5px",
-        }}
-      >
-        Formas de contato:
-      </h3>
-      <h4 style={{ textAlign: "center" }}>Email: fbt3@cin.ufpe.br </h4>
     </div>
   );
 }
