@@ -1,3 +1,7 @@
+import mangueboard from "../assets/Mangueboard.webp";
+import findai from "../assets/findai.png";
+import citi from "../assets/citi.jpg";
+
 export function Projects() {
   return (
     <div
@@ -41,7 +45,7 @@ export function Projects() {
           }}
         >
           <img
-            src="src/assets/Mangueboard.webp"
+            src={mangueboard}
             alt="MangueBoard"
             style={{
               width: "45%",
@@ -107,7 +111,7 @@ export function Projects() {
           }}
         >
           <img
-            src="src/assets/findai.png"
+            src={findai}
             alt="Find AI at CIN"
             style={{
               width: "45%",
@@ -175,7 +179,7 @@ export function Projects() {
           }}
         >
           <img
-            src="src/assets/citi.jpg"
+            src={citi}
             alt="CITi"
             style={{
               width: "45%",

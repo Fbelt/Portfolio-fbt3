@@ -1,3 +1,8 @@
+import foto from "../assets/Foto.jpg";
+import githubIcon from "../assets/Github.webp";
+import linkedinIcon from "../assets/Linkedin.png";
+import instaIcon from "../assets/insta.webp";
+
 export function Header() {
   return (
     <div
@@ -46,7 +51,7 @@ export function Header() {
           }}
         >
           <img
-            src="src/assets/Foto.jpg"
+            src={foto}
             alt="Profile"
             style={{
               width: "250px",
@@ -67,7 +72,7 @@ export function Header() {
           >
             <a href="https://github.com/Fbelt" target="_blank">
               <img
-                src="src/assets/Github.webp"
+                src={githubIcon}
                 alt="GitHub"
                 style={{
                   width: "32px",
@@ -83,7 +88,7 @@ export function Header() {
               target="_blank"
             >
               <img
-                src="src/assets/Linkedin.png"
+                src={linkedinIcon}
                 alt="LinkedIn"
                 style={{
                   width: "32px",
@@ -99,7 +104,7 @@ export function Header() {
               target="_blank"
             >
               <img
-                src="src/assets/insta.webp"
+                src={instaIcon}
                 alt="Instagram"
                 style={{
                   width: "48px",
