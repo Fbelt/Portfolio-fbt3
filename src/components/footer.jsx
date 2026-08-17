@@ -83,7 +83,7 @@ export function Footer() {
           >
             ✆ Celular
           </h4>
-          <p style={{ color: "#9ca3af", fontSize: "0.9em" }}>(81) 00000-0000</p>
+          <p style={{ color: "#9ca3af", fontSize: "0.9em" }}>(81) 99199-5844</p>
         </div>
       </div>
       <p style={{ marginTop: "50px", color: "#4d5567", fontSize: "0.8em" }}>
